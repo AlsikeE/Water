@@ -29,3 +29,5 @@ void ctrl_c(){
 	}
 	else
 		last -> next =now ->next;
+		free(now);
+}
